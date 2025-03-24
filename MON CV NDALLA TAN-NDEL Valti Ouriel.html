@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+            h1{
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                color: #333;
+            }
+
+            .cv-container {
+                width: 80%;
+                max-width: 900px;
+                margin: 30px auto;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            img{
+                border-radius: 45%;
+                width: 200px;
+                height: 200px;
+            }
+
+            /* Entête du CV */
+            header {
+                text-align: center;
+                border-bottom: 2px solid #eee;
+                padding-bottom: 20px;
+                margin-bottom: 20px;
+            }
+
+            header h1 {
+                font-size: 36px;
+                margin: 0;
+                color: #2C3E50;
+            }
+
+            header .title {
+                font-size: 24px;
+                color: #7F8C8D;
+            }
+
+            header .contact-info {
+                font-size: 14px;
+                color: #7F8C8D;
+            }
+
+            header .contact-info span {
+                margin-right: 10px;
+            }
+
+/* Sections du CV */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #2C3E50;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section ul li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 22px;
+    color: #2C3E50;
+}
+
+.job p {
+    font-size: 16px;
+    color: #7F8C8D;
+}
+
+.job ul {
+    padding-left: 20px;
+}
+
+/* Couleur de fond pour les sections */
+.profil, .competences, .experience, .formation, .langues {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profil {
+    border-left: 4px solid #3498db;
+}
+
+.competences {
+    border-left: 4px solid #2ecc71;
+}
+
+.experience {
+    border-left: 4px solid #e74c3c;
+}
+
+.formation {
+    border-left: 4px solid #f39c12;
+}
+
+.langues {
+    border-left: 4px solid #9b59b6;
+}
+
+/* Responsivité */
+@media screen and (max-width: 600px) {
+    .cv-container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+</style>
+</head>
+<body>
+    <div class="cv-container">
+        <img src="IMG_E1036.JPG">
+    <div class="cv-container">
+        <!-- Entête -->
+        <header>
+
+            <h1>NDALLA TAN-NDEL</h1>
+            <h1> Valti Ouriel Jocy </h1>
+            <p class="title">DEVELOPPEUR WEB</p>
+            <p class="contact-info">
+                
+                <span>Email: ndallaouriel@icloud.com</span> |
+
+                <span>Téléphone: +33 6 12 43 15 79 </span> |
+
+                <span>Adresse: 1 Allée Paul Eluard , 95100 Argenteuil</span>
+            </p>
+        </header>
+
+        <!-- Section Profil -->
+        <section class="profil">
+            <h2>PROFIL</h2>
+            <p>Développeur web passionné dans le développement d'applications web et de sites interactif . voulant acquerir une experience proffessionnelle pour acquerir des connaissances pratique </p>
+        </section>
+
+        <!-- Section Compétences -->
+        <section class="competences">
+            <h2>COMPETENCES</h2>
+            <ul>
+                <li> - HTML, CSS, JavaScript</li>
+                <li> - Cisco packet tracer </li>
+                
+            </ul>
+        </section>
+
+        <!-- Section  experience proffesionelle  -->
+        <section class="experience">
+            <h2>EXPERIENCE PROFFESSIONNELLE</h2>
+            <div class="job">
+                <h3>Employé de cybercafé</h3>
+                <p> CDI Septembre 2023 - juillet 2024 </p>
+                <ul>
+                    <li> - Assistance au clients pour l'utilisation de ordinateurs et des services internet</li>
+                    <li> - Résoudre les problèmes de bases liés aux équipements informatique </li>
+                    <li> - Gestion des sessions, y compris le suividu temps de paiements</li>
+                    <li> - Maintien de la sécurité et de la proprièté de l'espace de travail</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Agent marketing  </h3>
+                <p>MTN ( Opérateur réseau) Juin 2023</p>
+                <ul>
+                    <li> - Agent sue le terrain </li>
+                    <li> - présentation des produits de l'entreprise </li>
+                    <li> - sondage et recolte des avis de clients </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section Formation -->
+        <section class="formation"></h2>
+            <h2>FORMATION</h2>
+            <P>BTS CIEL Cybersécurité informatique réseau et électronique, ESIIA (en cours) 2024 - 2026 à Torcy</P>
+
+                    <p> - Assurer la sécurité d'une infrastucture réseau, d'un système, d'un service;</p>
+                    <p> - Répondre au incidences et demande d'assistance et d'évolution ;</p>
+                    <p> - Gérer et organiser la cybersécurité;</p>
+                    <p> - Protéger les données;</p>
+
+            <P>LICENCE 1 en GEII Génie éléctrique et Informatique industriel, IUTAC 2023 - 2024 au CONGO</P>
+
+            <P>BACCALAUREAT GENERAL Option Math et physique , La CG 2022 - 2023 au CONGO </P>
+
+        </section>
+
+        <!-- Section Langues -->
+        <section class="langues">
+            <h2>LANGUES</h2>
+            <ul>
+                <li> - Français : Langue maternelle</li>
+                <li> - Anglais : A2 </li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
